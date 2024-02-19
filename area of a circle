@@ -1,1 +1,11 @@
-#
+#include <stdio.h>
+
+void main() {
+    float radius , area , perimeter ;
+    printf("Enter The Radius : ");
+    scanf("%f",&radius);
+    area = 2*radius*radius;
+    printf("Area is %f",area);
+    perimeter = 2*22/7*radius;
+    printf("\nPerimeter is %f ",perimeter);
+}
